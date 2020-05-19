@@ -1,0 +1,22 @@
+{
+  "name": "titan-embeds-fab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run tsc && npm run webpack",
+    "tsc": "tsc",
+    "webpack": "webpack",
+    "prepublish": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.3.5",
+    "eslint": "^7.0.0",
+    "eslint-config-blockabc": "^0.9.4",
+    "typescript": "^3.9.2"
+  }
+}
